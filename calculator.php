@@ -11,8 +11,7 @@ print("number1=".$number1);
 print("<br>");
 print("number2=".$number2);
 print("<br>");
-//if(isset($_GET["Submit"])){
-   // $operator=$_GET["operator"];
+
     if($operator=="+"){
      $result=$number1+$number2;
      print("result=".$result);
@@ -29,8 +28,7 @@ print("<br>");
         $result=$number1/$number2;
      print("result=".$result);
     }
-//}
-//}
+
 
 ?>
 
